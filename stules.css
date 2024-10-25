@@ -9,7 +9,9 @@
     box-sizing: border-box;
 }
 
-h1{
+h1,
+h2,
+h3{
     font-family: lobester-bold;
 }
 
@@ -85,3 +87,29 @@ h1{
 .caro-btns button:nth-child(2){
     background-color: #0e2f37;
 }
+
+
+.facilities-box{
+    text-align: center;
+    background-color: rgba(231, 231, 231, 0.926);
+    border-radius: 15px;
+    padding: 2rem 1rem;
+}
+
+.facilities-box img{
+    width: 60px;
+    margin-bottom: 2rem;
+}
+
+.facilities-box:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+
+@media (max-width: 767px){
+    .facilities-box{
+        width: 90%;
+        margin: auto;
+    }
+}
+
