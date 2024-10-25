@@ -1,7 +1,16 @@
+@font-face {
+    font-family: lobester-bold;
+    src: url('./font/LobsterTwo-Bold.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1{
+    font-family: lobester-bold;
 }
 
 .navbar-brand img{
@@ -20,4 +29,59 @@
 
 .navbar .btn:hover{
     background-color: #ff7b5e;
+}
+
+.hero-area{
+    position: relative;
+}
+
+.bg-top{
+    width: 100%;
+    background-image: url('./images/bg-header-top.png');
+    position: absolute;
+    height: 20px;
+    background-repeat: repeat-x;
+    z-index: 4;
+}
+
+
+.bg-bottom{
+    background-image: url('./images/bg-header-bottom.png');
+    width: 100%;
+    height: 19px;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.carousel-control-prev{
+    z-index: 4;
+}
+
+.carousel-control-next{
+    z-index: 4;
+}
+
+.overly{
+    background: rgba(0, 0, 0, 0.338);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.carosuel-1-content,
+.carosuel-2-content{
+    z-index: 4;
+    width: 75%;
+}
+
+.caro-btns button:nth-child(1){
+    background-color: #FE5D37;
+}
+
+.caro-btns button:nth-child(2){
+    background-color: #0e2f37;
 }
