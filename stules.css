@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img{
+    width: 3.3rem;
+}
+
+.navbar-brand span{
+    color: #FE5D37;
+}
+
+.navbar .btn{
+    background-color: #FE5D37;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.navbar .btn:hover{
+    background-color: #ff7b5e;
+}
