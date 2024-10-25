@@ -29,6 +29,12 @@ h3{
     border-radius: 30px;
 }
 
+.btn{
+    background-color: #FE5D37;
+    color: #fff;
+    border-radius: 30px;
+}
+
 .navbar .btn:hover{
     background-color: #ff7b5e;
 }
@@ -103,6 +109,40 @@ h3{
 
 .facilities-box:hover{
     background-color: rgb(240, 240, 240);
+}
+
+.activities-img{
+    position: relative;
+}
+
+.activities-img img{
+    border: 1rem solid #fff;
+}
+
+.activities-img img:nth-child(1){
+    width: 80%;
+}
+
+.activities-img img:nth-child(2){
+    position: absolute;
+    top: 60%;
+    right: 53%;
+    width: 40%;
+}
+
+.activities-img img:nth-child(3){
+    position: absolute;
+    top: 60%;
+    left: 53%;
+    width: 40%;
+}
+
+
+
+
+
+.activities-img img:hover{
+    border: 1rem solid #FE5D37;
 }
 
 
